@@ -4,7 +4,6 @@ from django.contrib import admin
 from django.contrib import admin
 
 # Register your models here.
-from .models import noteBook, notesPages
+from .models import noteBook
 
 admin.site.register(noteBook)
-admin.site.register(notesPages)
